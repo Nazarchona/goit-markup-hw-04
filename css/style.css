@@ -97,7 +97,7 @@ address{
     content: "";
     display: block;
     position: absolute;
-    width: 48px;
+    width: 100%;
     height: 4px;
     border-radius: 2px;
     margin-top: 20px;
