@@ -251,11 +251,11 @@ address{
 
 .team-list-icons-list{
     display: flex;
-    flex-grow: 0;
     gap: 24px;
     padding-bottom: 32px;
     padding-top: 8px;
     justify-content: center;
+    align-items: center;
 }
 
 .team-list-icons-list-point{
