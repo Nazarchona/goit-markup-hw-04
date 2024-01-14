@@ -53,7 +53,7 @@ nav a{
     gap: 40px;
 }
 
-.main-links-link .first-link{
+.first-link{
     position: relative;
     color: #404bbf;
 }
@@ -219,7 +219,7 @@ address{
     justify-content: center;
 }
 
-.icon-box svg{
+.features-list-icon{
     width: 64px;
     height: 64px;
 }
@@ -294,6 +294,7 @@ address{
     border-radius: 50%;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link:hover{
@@ -304,13 +305,10 @@ address{
     background-color: #404bbf;
 }
 
-.social-link svg{
-    width: 16px;
-    height: 16px;
-}
-
 .social-icon-team{
     fill: #f4f4fd;
+    width: 16px;
+    height: 16px;
 }
 
 .team-member{
@@ -372,7 +370,7 @@ address{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #fff;
+    color: #f4f4fd;;
     padding: 40px 32px;
     background-color: #4d5ae5;
     height: 100%;
@@ -503,9 +501,10 @@ address{
 
 .portfolio-list-point:hover{
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    transform: translateY(0%);
 }
 
-.basement{
+.basement-content-container{
     display: flex;
     align-items: baseline;
 }
