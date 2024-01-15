@@ -215,7 +215,7 @@ address{
     font-style: normal;
     font-weight: 500;
     line-height: 1.20; 
-    letter-spacing: 0.02em; /* 0.4/20 */
+    letter-spacing: 0.02em; 
     margin-bottom: 8px;
 }
 
@@ -225,11 +225,11 @@ address{
     font-style: normal;
     font-weight: 400;
     line-height: 1.50; 
-    letter-spacing: 0.02em; /* 0.32/16 */
+    letter-spacing: 0.02em; 
 }
 
 .team{
-    background: var(--CLOUD, #F4F4FD);
+    background: #F4F4FD;
 }
 
 .team .title{
@@ -251,11 +251,18 @@ address{
 
 .team-list-icons-list{
     display: flex;
-    gap: 24px;
     padding-bottom: 32px;
     padding-top: 8px;
     justify-content: center;
     align-items: center;
+    gap: 24px;
+}
+
+.team-member .team-list-icons-list li{
+    height: 40px;
+    width: 40px;
+    flex-shrink: 0;
+    flex-direction: column;
 }
 
 
@@ -264,6 +271,7 @@ address{
     display: flex;
     width: 100%;
     height: 100%;
+    gap: 24px;
     background-color: #4d5ae5;
     border-radius: 50%;
     align-items: center;
@@ -400,6 +408,8 @@ address{
 .basement{
     background: var(--NAVY-BLUE, #2E2F42);
     padding: 100px 0;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 
@@ -487,6 +497,8 @@ address{
 .basement-content-container{
     display: flex;
     align-items: baseline;
+    margin: 0;
+    padding: 0;
 }
 
 .logo-text{
@@ -580,9 +592,8 @@ p{
     padding: 0;
 }
 
-.team-member .team-list-icons-list li{
-    height: 40px;
-    width: 40px;
-}
+
+
+
 
 
