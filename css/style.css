@@ -580,7 +580,7 @@ p{
     padding: 0;
 }
 
-.team-list-icons-list-point{
+.team-member .team-list-icons-list li{
     height: 40px;
     width: 40px;
 }
