@@ -258,10 +258,7 @@ address{
     align-items: center;
 }
 
-.team-list-icons-list-point{
-    height: 40px;
-    width: 40px;
-}
+
 
 .social-link{
     display: flex;
@@ -581,6 +578,11 @@ button{
 p{
     margin: 0;
     padding: 0;
+}
+
+.team-list-icons-list-point{
+    height: 40px;
+    width: 40px;
 }
 
 
