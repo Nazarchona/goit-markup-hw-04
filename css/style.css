@@ -408,8 +408,6 @@ address{
 .basement{
     background: var(--NAVY-BLUE, #2E2F42);
     padding: 100px 0;
-    max-width: 1440px;
-    margin: 0 auto;
 }
 
 
@@ -426,7 +424,7 @@ address{
 
 .basement .footer-logo{
     display: inline-block;
-    margin-bottom: 16px;
+    margin-bottom: 17.5px;
 }
 
 .footer-logo-span{
@@ -495,12 +493,10 @@ address{
 }
 
 
-.basement-content-container{
+.basement-content-wrap{
     display: flex;
     align-items: baseline;
-    margin: 0;
-    padding: 0;
-    padding-left: 156px;
+    justify-content: center;
 }
 
 .logo-text{
