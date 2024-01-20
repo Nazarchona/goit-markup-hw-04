@@ -496,7 +496,6 @@ address{
 .basement-content-wrap{
     display: flex;
     align-items: baseline;
-    justify-content: center;
 }
 
 .logo-text{
